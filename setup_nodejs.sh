@@ -13,3 +13,8 @@ node -v
 echo "npm version:"
 npm -v
 
+npm install --global yarn
+
+echo "yarn version:"
+yarn -v
+
