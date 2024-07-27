@@ -6,6 +6,8 @@ sudo apt update
 # Installation de Node.js et npm
 sudo apt install -y nodejs npm
 
+clear
+
 # Affichage des versions installées
 echo "Node.js version:"
 node -v
@@ -13,7 +15,7 @@ node -v
 echo "npm version:"
 npm -v
 
-npm install --global yarn
+sudo npm install --global yarn
 
 echo "yarn version:"
 yarn -v
